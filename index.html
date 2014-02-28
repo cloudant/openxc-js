@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OpenXC</title>
+    <link rel="stylesheet" href="openxc.css"></link>
+  </head>
+  <body>
+    <input type="radio" id="usb" name="radiogroup">USB Trace</input>
+    <input type="radio" id="demo" name="radiogroup" checked>Demo Trace</input>
+    <br/>
+    <input type="file" name="trace" id="data" accept=".json"></input>
+    <br/>
+    <input type="checkbox" id="devMode" value="dev" checked>Dev Mode<br/>
+    <br/>
+    <input type="button" id="stop" value="Stop"></input>
+    <br/>
+    <iframe src="map.html" width="100%" height="300" id="mapFrame" frameBorder="0"></iframe>
+    <input type="button" id="sync" value="Sync"></input>
+    <script src="src/openxc.js"></script>
+  </body>
+</html>

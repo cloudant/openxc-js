@@ -1,0 +1,22 @@
+{
+  "name": "OpenXC CAN",
+  "version": "0.1",
+  "manifest_version": 2,
+  "minimum_chrome_version": "26",
+  "app": {
+    "background": {
+      "scripts": ["src/background.js"]
+    }
+  },
+  "offline_enabled": true,
+  "icons" : {
+    "16" : "Cloudant_16x16.png",
+    "128" : "Cloudant_128x128.png"
+  },
+  "sandbox": {
+    "pages": ["map.html"]
+  },
+  "offline_enabled": true,
+  "permissions": ["usb", "fileSystem", "notifications", "tts", "https://normanb.cloudant.com/cardemo"],
+  "optional_permissions": [{"usbDevices": [{"vendorId": 1917, "productId": 1040}]}]
+}
