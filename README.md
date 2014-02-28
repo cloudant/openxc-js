@@ -31,11 +31,11 @@ TODO: Insert link to Chrome WebStore.
 
 ## Configuration 
 
-Configuration is in the app [manifest.json](https://raw.github.com/cloudant/openxc-js/master/manifest.json) and in [src/config.js](https://raw.github.com/cloudant/openxc-js/master/src/config.js) file.
+Configuration is in the app [manifest.json](https://github.com/cloudant/openxc-js/blob/master/manifest.json) and in [src/config.js](https://github.com/cloudant/openxc-js/blob/master/config.js) file.
   
 ## Running
 
-Download a trace file (recommended sample is [data/london.json](https://raw.github.com/cloudant/openxc-js/master/data/london.json)) and store locally. Select this trace file as input.
+Download a trace file (recommended sample is [data/london.json](https://github.com/cloudant/openxc-js/blob/master/data/london.json)) and store locally. Select this trace file as input.
 
 ## Issues
 
