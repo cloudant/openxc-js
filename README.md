@@ -31,7 +31,7 @@ TODO: Insert link to Chrome WebStore.
 
 ## Configuration 
 
-Configuration is in the app [manifest.json](https://github.com/cloudant/openxc-js/blob/master/manifest.json) and in [src/config.js](https://github.com/cloudant/openxc-js/blob/master/config.js) file.
+Configuration is in the app [manifest.json](https://github.com/cloudant/openxc-js/blob/master/manifest.json) and in [src/config.js](https://github.com/cloudant/openxc-js/blob/master/src/config.js) file.
   
 ## Running
 
