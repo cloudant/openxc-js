@@ -16,6 +16,9 @@ The app queries the server at intervals for traffic information near to the car 
   * Runs on Windows, Mac, Linux, [Android and iOS](https://github.com/MobileChromeApps/mobile-chrome-apps/blob/master/README.md) 
   	* [Current API support](https://github.com/MobileChromeApps/mobile-chrome-apps/blob/master/docs/APIStatus.md)
   * App runs in the background even when page is closed
+  * Offline / Online usage
+
+Chrome Apps are HTML5 applications that expose some of the native APIs in Chrome. 
 
 ## Features 
 
@@ -25,10 +28,11 @@ v1.0 March 2014
   	* Uses a WebWorker as a background thread and runs OpenXC trace files
   * Screen can be locked to disable visual cues
   * Text to Speech used for voice cues of traffic congestion
+  * Translated the [NYC Downtown](http://openxcplatform.com.s3.amazonaws.com/traces/nyc/downtown-crosstown.json) trace to be over London.
  
 ## Installation 
 
-TODO: Insert link to Chrome WebStore.
+Application can be installed fron the [Chrome WebStore](https://chrome.google.com/webstore/detail/openxc-can/jldhcpgdjpimnbdhhhgiajcdefciljhg)
 
 ## Configuration 
 
@@ -36,7 +40,9 @@ Configuration is in the app [manifest.json](https://github.com/cloudant/openxc-j
   
 ## Running
 
-Download a trace file (recommended sample is [data/london.json](https://github.com/cloudant/openxc-js/blob/master/data/london.json)) and store locally. Select this trace file as input.
+Download the entire git repository [here](https://github.com/cloudant/openxc-js/archive/master.zip) to access the demo trace file data/london.json as github doesn't support single download of ~60mb JSON files.
+
+Select this trace file as input.
 
 ## Issues
 
