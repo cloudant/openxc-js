@@ -13,7 +13,8 @@ The app queries the server at intervals for traffic information near to the car 
 [Chrome Apps](https://developers.google.com/chrome/apps/docs/developers_guide) 
   
   * Bluetooth / USB Connectivity
-  * Runs on Windows, Mac, Linux, Android and iOS 
+  * Runs on Windows, Mac, Linux, [Android and iOS](https://github.com/MobileChromeApps/mobile-chrome-apps/blob/master/README.md) 
+  	* [Current API support](https://github.com/MobileChromeApps/mobile-chrome-apps/blob/master/docs/APIStatus.md)
   * App runs in the background even when page is closed
 
 ## Features 
