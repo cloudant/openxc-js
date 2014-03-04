@@ -129,10 +129,9 @@ function runTrace(trace) {
             getTrafficAlerts(lon, lat);
             first = false;
           }
+          // reset properties
+          obj.properties = {};
         }
-
-        // reset properties
-        obj.properties = {};
       }
     }
   }
