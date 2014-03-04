@@ -32,7 +32,7 @@ v1.0 March 2014
  
 ## Installation 
 
-Application can be installed fron the [Chrome WebStore](https://chrome.google.com/webstore/detail/openxc-can/jldhcpgdjpimnbdhhhgiajcdefciljhg)
+Application can be installed from the [Chrome WebStore](https://chrome.google.com/webstore/detail/openxc-can/jldhcpgdjpimnbdhhhgiajcdefciljhg). Click link to install.
 
 ## Configuration 
 
